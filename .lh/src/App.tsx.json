@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/App.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1737367735362,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737367744024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,9 @@\n   const [count, setCount] = useState(0)\n \n   return (\n     <>\n-      \n+      <Nav\n     </>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1737367749343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,15 +1,16 @@\n import { useState } from 'react'\n import reactLogo from './assets/react.svg'\n import viteLogo from '/vite.svg'\n import './App.css'\n+import NavDrawer from './components/Scaffold/NaviDrawer'\n \n function App() {\n   const [count, setCount] = useState(0)\n \n   return (\n     <>\n-      <Nav\n+      <NavDrawer></NavDrawer>\n     </>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1737367757461,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   const [count, setCount] = useState(0)\n \n   return (\n     <>\n-      <NavDrawer></NavDrawer>\n+      <NavDrawer/></NavDrawer>\n     </>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1737367762483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n   const [count, setCount] = useState(0)\n \n   return (\n     <>\n-      <NavDrawer/></NavDrawer>\n+      <NavDrawer/>\n     </>\n   )\n }\n \n"
+                },
+                {
+                    "date": 1737367814765,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n import './App.css'\n import NavDrawer from './components/Scaffold/NaviDrawer'\n \n function App() {\n-  const [count, setCount] = useState(0)\n+  \n \n   return (\n     <>\n       <NavDrawer/>\n"
+                }
+            ],
+            "date": 1737367735362,
+            "name": "Commit-0",
+            "content": "import { useState } from 'react'\nimport reactLogo from './assets/react.svg'\nimport viteLogo from '/vite.svg'\nimport './App.css'\n\nfunction App() {\n  const [count, setCount] = useState(0)\n\n  return (\n    <>\n      \n    </>\n  )\n}\n\nexport default App\n"
+        }
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "sourceFile": "src/data/ContactData.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 15,
+            "patches": [
+                {
+                    "date": 1737532136265,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737532142944,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,1 @@\n-export \n\\ No newline at end of file\n+export interface Form\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737532165163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +1,3 @@\n-export interface Form\n\\ No newline at end of file\n+export interface FormValues {\n+    id:\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737532170964,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n export interface FormValues {\n-    id:\n+    id:number,\n+    \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737532176417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n export interface FormValues {\n     id:number,\n+    name?:string,\n     \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737532182656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n export interface FormValues {\n     id:number,\n     name?:string,\n-    \n+    role?:\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737532188374,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n export interface FormValues {\n-    id:number,\n+    id: number,\n     name?:string,\n-    role?:\n+    role?: string,\n+\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737532195304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+export interface FormValues {\n+    id: number,\n+    name?: string,\n+    role?: string,\n+    skill?: string\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737532200768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,13 +1,8 @@\n export interface FormValues {\n     id: number,\n     name?: string,\n     role?: string,\n-    skill?: string\n+    skill?: string[],\n     \n-}\n-export interface FormValues {\n-    id: number,\n-    name?:string,\n-    role?: string,\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737532210202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,8 @@\n+export interface FormValues {\n+    id: number,\n+    name?: string,\n+    role?: string,\n+    skills?: string[],\n+    startDate?: number,\n+\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737532216834,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,15 +2,8 @@\n     id: number,\n     name?: string,\n     role?: string,\n     skills?: string[],\n-    startDate?: number,\n-\n-}\n-export interface FormValues {\n-    id: number,\n-    name?: string,\n-    role?: string,\n-    skill?: string[],\n+    startDate?: string,\n     \n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737532223021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,7 @@\n     name?: string,\n     role?: string,\n     skills?: string[],\n     startDate?: string,\n-    \n+    preferredDate?: string\n \n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737532682218,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,9 @@\n     name?: string,\n     role?: string,\n     skills?: string[],\n     startDate?: string,\n-    preferredDate?: string\n+    preferred?: string\n \n\\ No newline at end of file\n-}\n+}\n+\n+\n"
+                },
+                {
+                    "date": 1737532690176,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,4 +7,6 @@\n     preferred?: string\n \n }\n \n+\n+const today = new Date();\n"
+                },
+                {
+                    "date": 1737532698089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,5 +10,5 @@\n \n \n const today = new Date();\n \n-export interface\n\\ No newline at end of file\n+export const \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737532719787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,6 +12,6 @@\n const today = new Date();\n \n export const contactData:Array<FormValues> =[\n \n-    {}\n+    {id}\n ]\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1737532136265,
+            "name": "Commit-0",
+            "content": "export "
+        }
+    ]
+}

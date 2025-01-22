@@ -1,0 +1,134 @@
+{
+    "sourceFile": "src/components/Form/ContactForm.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 29,
+            "patches": [
+                {
+                    "date": 1737519968650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1737519975010,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,3 @@\n+\n+\n+export default function\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737520110982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,3 @@\n \n \n-export default function\n-\n-\n-export \n\\ No newline at end of file\n+export default function Contact\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737520120818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n \n \n-export default function Contact\n\\ No newline at end of file\n+export default function ContactForm(){\n+    \n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737520126522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n \n \n export default function ContactForm(){\n-    \n+\n+    return ()\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737520132797,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,8 @@\n \n \n export default function ContactForm(){\n \n-    return ()\n+    return (\n+        <div\n+    )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737520147171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n \n export default function ContactForm(){\n \n     return (\n-        <div\n+        <div>Co</div>\n     )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737520258045,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n \n export default function ContactForm(){\n \n     return (\n-        <div>Co</div>\n+        <div>Contact form</div>\n     )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737533823085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n \n \n+cons\n export default function ContactForm(){\n \n     return (\n         <div>Contact form</div>\n"
+                },
+                {
+                    "date": 1737533830123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n \n \n-cons\n+const roles = [\"\"]\n export default function ContactForm(){\n \n     return (\n         <div>Contact form</div>\n"
+                },
+                {
+                    "date": 1737533837187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n \n \n const roles = [\"\"]\n+const skills\n export default function ContactForm(){\n \n     return (\n         <div>Contact form</div>\n"
+                },
+                {
+                    "date": 1737533845233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,10 @@\n \n \n const roles = [\"\"]\n-const skills\n+const skills = [\"\"]\n export default function ContactForm(){\n \n     return (\n-        <div>Contact form</div>\n+        <div>Contact</div>\n     )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737533852542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,9 @@\n const skills = [\"\"]\n export default function ContactForm(){\n \n     return (\n-        <div>Contact</div>\n+        <Paper>\n+            \n+        </Paper>\n     )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737533858312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,8 @@\n export default function ContactForm(){\n \n     return (\n         <Paper>\n-            \n+            <For\n         </Paper>\n     )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737533867204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,14 @@\n+\n+import moduleName from 'module'\n+const roles = [\"\"]\n+const skills = [\"\"]\n+export default function ContactForm(){\n+\n+    return (\n+        <Paper>\n+            <Form>\n+\n+            </Form>\n+        </Paper>\n+    )\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737533875557,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n \n-import moduleName from 'module'\n+import {} fr\n const roles = [\"\"]\n const skills = [\"\"]\n export default function ContactForm(){\n \n@@ -10,17 +10,5 @@\n \n             </Form>\n         </Paper>\n     )\n-}\n-\n-\n-const roles = [\"\"]\n-const skills = [\"\"]\n-export default function ContactForm(){\n-\n-    return (\n-        <Paper>\n-            <For\n-        </Paper>\n-    )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737533885912,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n \n-import {} fr\n+import {Paper} from \"@mui/material\"\n const roles = [\"\"]\n const skills = [\"\"]\n export default function ContactForm(){\n \n"
+                },
+                {
+                    "date": 1737533891037,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n \n-import {Paper} from \"@mui/material\"\n+import {Paper,FormControl} from \"@mui/material\"\n const roles = [\"\"]\n const skills = [\"\"]\n export default function ContactForm(){\n \n"
+                },
+                {
+                    "date": 1737533901955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n \n-import {Paper,FormControl} from \"@mui/material\"\n+import {Paper,FormControl,FormGroup} from \"@mui/material\"\n const roles = [\"\"]\n const skills = [\"\"]\n export default function ContactForm(){\n \n"
+                },
+                {
+                    "date": 1737533908383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n \n-import {Paper,FormControl,FormGroup} from \"@mui/material\"\n+import {Paper,FormControl,FormGroup,Autocomplete} from \"@mui/material\"\n const roles = [\"\"]\n const skills = [\"\"]\n export default function ContactForm(){\n \n"
+                },
+                {
+                    "date": 1737533917059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,14 @@\n \n-import {Paper,FormControl,FormGroup,Autocomplete} from \"@mui/material\"\n+import {Paper,FormControl,FormGroup,Autocomplete,TextField} from \"@mui/material\"\n const roles = [\"\"]\n const skills = [\"\"]\n export default function ContactForm(){\n \n     return (\n         <Paper>\n             <Form>\n-\n+                    \n             </Form>\n         </Paper>\n     )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737533924149,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n \n     return (\n         <Paper>\n             <Form>\n-                    \n+                <FormControl\n             </Form>\n         </Paper>\n     )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737533931538,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,11 @@\n \n     return (\n         <Paper>\n             <Form>\n-                <FormControl\n+                <FormControl>\n+                    <Form\n+                </FormControl>\n             </Form>\n         </Paper>\n     )\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1737533938732,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,9 +7,11 @@\n     return (\n         <Paper>\n             <Form>\n                 <FormControl>\n-                    <Form\n+                    <FormGroup>\n+                        \n+                    </FormGroup>\n                 </FormControl>\n             </Form>\n         </Paper>\n     )\n"
+                },
+                {
+                    "date": 1737533946100,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,10 +7,10 @@\n     return (\n         <Paper>\n             <Form>\n                 <FormControl>\n-                    <FormGroup>\n-                        \n+                    <FormGroup row>\n+                            \n                     </FormGroup>\n                 </FormControl>\n             </Form>\n         </Paper>\n"
+                },
+                {
+                    "date": 1737533955196,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n         <Paper>\n             <Form>\n                 <FormControl>\n                     <FormGroup row>\n-                            \n+                        \n                     </FormGroup>\n                 </FormControl>\n             </Form>\n         </Paper>\n"
+                },
+                {
+                    "date": 1737533963244,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,9 @@\n         <Paper>\n             <Form>\n                 <FormControl>\n                     <FormGroup row>\n-                        \n+                        <TextField />\n                     </FormGroup>\n                 </FormControl>\n             </Form>\n         </Paper>\n"
+                },
+                {
+                    "date": 1737533968723,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,9 +8,11 @@\n         <Paper>\n             <Form>\n                 <FormControl>\n                     <FormGroup row>\n-                        <TextField />\n+                        <TextField \n+                            id=\"\"\n+                        />\n                     </FormGroup>\n                 </FormControl>\n             </Form>\n         </Paper>\n"
+                },
+                {
+                    "date": 1737533975150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,9 +10,9 @@\n                 <FormControl>\n                     <FormGroup row>\n                         <TextField \n                             id=\"name\"\n-                            name=\"\"\n+                            name=\"name\"\n                         />\n                     </FormGroup>\n                 </FormControl>\n             </Form>\n"
+                },
+                {
+                    "date": 1737533992539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n                         <TextField \n                             id=\"name\"\n                             name=\"name\"\n                             label=\"name\"\n-                            variant=\"out\"\n+                            variant=\"outlined\"\n                         />\n                     </FormGroup>\n                 </FormControl>\n             </Form>\n"
+                }
+            ],
+            "date": 1737519968650,
+            "name": "Commit-0",
+            "content": "\n\nexport "
+        }
+    ]
+}
